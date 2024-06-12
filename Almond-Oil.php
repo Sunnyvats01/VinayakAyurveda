@@ -10,61 +10,17 @@
     <title>Products-Vinayak Ayurveda</title>
   </head>
   <body>
-    <header>
-      <div class="Nav1">
-        <div class="nav1-left">
-          <marquee>Welcome to Vinayak Ayurveda Pvt. Ltd.</marquee>
-        </div>
-        <div class="nav1-right">
-          <i class="fa-solid fa-phone fa-rotate-270" style="color: #fcfdfd"></i>
-          <a>+91 9870579944, +91 9667661243, +91 9667681691</a>
-        </div>
-      </div>
+  <header>
 
-      <div class="navbar h-nav">
-        <img src="logo.jpg" alt="Logo" class="logo" />
+      <?php
+      include "topbar.php"
+        ?>
 
-        <ul class="nav-list">
-          <li><a href="index.html" class="nav-link">Home</a></li>
-          <li><a href="aboutUs.html" class="nav-link">About Us</a></li>
-          <li>
-            <a href="ourproducts.html" class="nav-link">Our Products</a>
-          </li>
-          <li>
-            <a href="patentproduct.html" class="nav-link">Patent Products</a>
-          </li>
-          <li>
-            <a href="PCDpharma.html" class="nav-link">PCD Pharma Franchise</a>
-          </li>
-          <li>
-            <a href="thirdparty.html" class="nav-link">Third Party Manufacuring</a>
-          </li>
-          <li><a href="ContactUs.html" class="nav-link">Contact Us</a></li>
-          <!-- <li><i class="fa-solid fa-magnifying-glass fa-2xl"></i></li> -->
-        </ul>
-        <div class="burger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </div>
+      <?php
+      include "header.php"
+        ?>
 
-        <div class="dropdown-menu">
-          <ul >
-            <li><a href="index.html" class="nav-link">Home</a></li>
-            <li><a href="aboutUs.html" class="nav-link">About Us</a></li>
-            <li>
-              <a href="ourproducts.html" class="nav-link">Our Products</a>
-            </li>
-            <li>
-              <a href="PCDpharma.html" class="nav-link">PCD Pharma Franchise</a>
-            </li>
-            <li>
-              <a href="thirdparty.html" class="nav-link">Third Party Manufacuring</a>
-            </li>
-            <li><a href="ContactUs.html" class="nav-link">Contact Us</a></li>
-          </ul>
-        </div>
-      </div>
+
     </header>
 
     <!-- main part start -->
@@ -77,28 +33,27 @@
         <div class="productbox">
           <div class="allimages">
             <div class="smallimages">
-              <img src="product-images/Aloevera Gel/Aloevera-Gel-1.jpg" onclick="clickimg(this)" />
-              <img src="product-images/Aloevera Gel/Aloevera-Gel-2.jpg" onclick="clickimg(this)" />
-              <img src="product-images/Aloevera Gel/Aloevera-Gel-3.jpg" onclick="clickimg(this)" />
+              <img src="product-images/Almond OIl/Almond-Oil-1.jpg" onclick="clickimg(this)" />
+              <img src="product-images/Almond OIl/Almond-Oil-2.jpg " onclick="clickimg(this)" />
+              <img src="product-images/Almond OIl/Almond-Oil-3.jpg" onclick="clickimg(this)" />
             </div>
             <div class="main-images">
-              <img src="product-images/Aloevera Gel/Aloevera-Gel-1.jpg" id="imagebox" />
+              <img src="product-images/Almond OIl/Almond-Oil-1.jpg" id="imagebox" />
             </div>
           </div>
         </div>
         <div class="text">
           <div class="content">
             <p class="brand">Brand: Vinayak Ayurveda</p>
-            <p class="Product-name">Aloe Vera Gel</p>
+            <p class="Product-name">Almond Oil</p>
           </div>
           <div class="pricebox">
-            <p class="price"><i class="fa-solid fa-indian-rupee-sign" style="color: #050505;"></i>45/- Per Piece</p>
+            <p class="price"><i class="fa-solid fa-indian-rupee-sign" style="color: #050505;"></i>120/- Per Piece</p>
             <div class="product-details">
-              <table>
-                
+              <table>     
                 <tr>
                   <th>Packing Size</th>
-                  <td>150gm</td>
+                  <td>100ml</td>
                 </tr>
                 <tr>
                   <th>Shelf Life</th>
@@ -106,16 +61,14 @@
                 </tr>
                 <tr>
                   <th>MOQ</th>
-                  <td>	1000</td>
+                  <td>1000</td>
                 </tr>
               </table>
             </div>
             <p>
-              <b>Description: </b> Aloe vera gel has healing and moisturizing properties and is best to provide the dry skin with the much needed hydration. Exfoliating the skin is important to get rid of dead cells and clear pores of grime. It’s an all-natural and gentle way to exfoliate your skin. Aloe vera is non-oily and penetrates the skin layers providing deep hydration from within and gives smooth, silky soft skin. It also lightens blemishes and scars.
+              <b>Description: </b> Sweet Almond Oil is rich in Vitamin E, mono saturated fatty acids, proteins and many other healthy minerals and vitamins. Sweet Almond Oil is a natural head to toe solution for skin,hair and even nails and for smooth beautiful skin. It is extremely mild and hypoallergenic and wonderful moisturizing oil.Sweet Almond Oil can help reduce the appearance of fine lines and wrinkles by helping to repair the skin collagen layer and if you have nails that easily chip or break, Sweet Almond Oil's combination of zinc,B-complex, vitamins and iron will help strengthen nails.
             </p>
           </div>
-          
-
 
           <div class="contact-details">
             <Button id="Call-Us"> 

@@ -15,60 +15,16 @@
 
 <body>
   <header>
-    <div class="Nav1">
-      <div class="nav1-left">
-        <marquee>Welcome to Vinayak Ayurveda Pvt. Ltd.</marquee>
-      </div>
-      <div class="nav1-right">
-        <i class="fa-solid fa-phone fa-rotate-270" style="color: #fcfdfd"></i>
-        <a>+91 9870579944, +91 9667661243, +91 9667681691</a>
-      </div>
-    </div>
 
-    <div class="navbar h-nav">
-      <img src="logo.jpg" alt="Logo" class="logo" />
+    <?php
+    include "topbar.php"
+      ?>
 
-      <ul class="nav-list">
-        <li><a href="index.html" class="nav-link">Home</a></li>
-        <li><a href="aboutUs.html" class="nav-link">About Us</a></li>
-        <li>
-          <a href="ourproducts.html" class="nav-link">Our Products</a>
-        </li>
-        <li>
-          <a href="patentproduct.html" class="nav-link">Patent Products</a>
-        </li>
-        <li>
-          <a href="PCDpharma.html" class="nav-link">PCD Pharma Franchise</a>
-        </li>
-        <li>
-          <a href="thirdparty.html" class="nav-link">Third Party Manufacuring</a>
-        </li>
-        <li><a href="ContactUs.html" class="nav-link">Contact Us</a></li>
-        <!-- <li><i class="fa-solid fa-magnifying-glass fa-2xl"></i></li> -->
-      </ul>
-      <div class="burger">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </div>
+    <?php
+    include "header.php"
+      ?>
 
-      <div class="dropdown-menu">
-        <ul >
-          <li><a href="index.html" class="nav-link">Home</a></li>
-          <li><a href="aboutUs.html" class="nav-link">About Us</a></li>
-          <li>
-            <a href="ourproducts.html" class="nav-link">Our Products</a>
-          </li>
-          <li>
-            <a href="PCDpharma.html" class="nav-link">PCD Pharma Franchise</a>
-          </li>
-          <li>
-            <a href="thirdparty.html" class="nav-link">Third Party Manufacuring</a>
-          </li>
-          <li><a href="ContactUs.html" class="nav-link">Contact Us</a></li>
-        </ul>
-      </div>
-    </div>
+
   </header>
 
   <!-- main part start -->
@@ -81,28 +37,27 @@
       <div class="productbox">
         <div class="allimages">
           <div class="smallimages">
-            <img src="product-images/Arjun Chaal Powder/Arjun-Chaal-Powder-1.jpg" onclick="clickimg(this)" />
-            <img src="product-images/Arjun Chaal Powder/Arjun-Chaal-Powder-2.jpg" onclick="clickimg(this)" />
-            <img src="product-images/Arjun Chaal Powder/Arjun-Chaal-Powder-3.jpg" onclick="clickimg(this)" />
+            <img src="product-images/Aloevera Juice/Aloevera-Juice-1.jpg" onclick="clickimg(this)" />
+            <img src="product-images/Aloevera Juice/Aloevera-Juice-2.jpg" onclick="clickimg(this)" />
+            <img src="product-images/Aloevera Juice/Aloevera-Juice-3.jpg" onclick="clickimg(this)" />
           </div>
           <div class="main-images">
-            <img src="product-images/Arjun Chaal Powder/Arjun-Chaal-Powder-1.jpg" id="imagebox" />
+            <img src="product-images/Aloevera Juice/Aloevera-Juice-1.jpg" id="imagebox" />
           </div>
         </div>
       </div>
       <div class="text">
         <div class="content">
           <p class="brand">Brand: Vinayak Ayurveda</p>
-          <p class="Product-name">Arjun Chaal Powder</p>
+          <p class="Product-name"> Aloevera Juice</p>
         </div>
         <div class="pricebox">
-          <p class="price"><i class="fa-solid fa-indian-rupee-sign" style="color: #050505;"></i>40/- Per Piece</p>
+          <p class="price"><i class="fa-solid fa-indian-rupee-sign" style="color: #050505;"></i>75/- Per Piece</p>
           <div class="product-details">
             <table>
-
               <tr>
                 <th>Packing Size</th>
-                <td>200gm</td>
+                <td>500ml</td>
               </tr>
               <tr>
                 <th>Shelf Life</th>
@@ -115,13 +70,13 @@
             </table>
           </div>
           <p>
-            <b>Description: </b> Arjuna (Terminalia Arjuna) is a tree bark that is used in Ayurveda since thousands of
-            years for the purposes of cardiovascular health. It Helps to maintain normal blood pressure & strengthens
-            heart muscles.
+            <b>Description: </b> Aloe vera Juice is 100% pure, unadulterated, undiluted, Non-GMO, and the aloe vera is
+            grown in Company-owned farmlands. Aloe vera Juice heals wounds and cuts as it contains anti-inflammatory and
+            anti-septic properties, promoting healthy skin. It helps boost metabolism as it contains fiber and is an
+            excellent anti-oxidant. Rich in fiber and minerals, it helps maintain blood sugar levels and works as a
+            great detoxifier.
           </p>
         </div>
-
-
 
         <div class="contact-details">
           <Button id="Call-Us">
