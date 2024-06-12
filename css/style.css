@@ -3,7 +3,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Tahoma;
+  font-family: poppins;
   animation: transitionIn 0.75s;
 
 }
@@ -684,8 +684,6 @@ ul {
   color: black;
   line-height: 1.8rem;
   text-align: justify;
-
-
 
 }
 
