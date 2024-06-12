@@ -150,12 +150,12 @@
 
     <footer>
 
-<?php
-include 'footer.php';
+      <?php
+      include 'footer.php';
 
-?>
+      ?>
 
-</footer>
+    </footer>
   </div>
   <script src="index.js"></script>
 </body>
