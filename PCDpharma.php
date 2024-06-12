@@ -11,62 +11,18 @@
     <title>PCD Pharma Franchise-Vinayak Ayurveda</title>
   </head>
   <body>
-    <header>
-      <div class="Nav1">
-        <div class="nav1-left">
-          <marquee>Welcome to Vinayak Ayurveda Pvt. Ltd.</marquee>
-        </div>
-        <div class="nav1-right">
-          <i class="fa-solid fa-phone fa-rotate-270" style="color: #fcfdfd"></i>
-          <a>+91 9870579944, +91 9667661243, +91 9667681691</a>
-        </div>
-      </div>
+  <header>
 
-      <div class="navbar h-nav">
-        <img src="logo.jpg" alt="Logo" class="logo" />
+<?php
+include "topbar.php"
+  ?>
 
-        <ul class="nav-list">
-          <li><a href="index.html" class="nav-link">Home</a></li>
-          <li><a href="aboutUs.html" class="nav-link">About Us</a></li>
-          <li>
-            <a href="ourproducts.html" class="nav-link">Our Products</a>
-          </li>
-          <li>
-            <a href="patentproduct.html" class="nav-link">Patent Products</a>
-          </li>
-          <li>
-            <a href="PCDpharma.html" class="nav-link">PCD Pharma Franchise</a>
-          </li>
-          <li>
-            <a href="thirdparty.html" class="nav-link">Third Party Manufacuring</a>
-          </li>
-          <li><a href="ContactUs.html" class="nav-link">Contact Us</a></li>
-          <!-- <li><i class="fa-solid fa-magnifying-glass fa-2xl"></i></li> -->
-        </ul>
-        <div class="burger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </div>
+<?php
+include "header.php"
+  ?>
 
-        <div class="dropdown-menu">
-          <ul >
-            <li><a href="index.html" class="nav-link">Home</a></li>
-            <li><a href="aboutUs.html" class="nav-link">About Us</a></li>
-            <li>
-              <a href="ourproducts.html" class="nav-link">Our Products</a>
-            </li>
-            <li>
-              <a href="PCDpharma.html" class="nav-link">PCD Pharma Franchise</a>
-            </li>
-            <li>
-              <a href="thirdparty.html" class="nav-link">Third Party Manufacuring</a>
-            </li>
-            <li><a href="ContactUs.html" class="nav-link">Contact Us</a></li>
-          </ul>
-        </div>
-      </div>
-    </header>
+
+</header>
     <div id="about-Middle-div">
       <div id="about-heading">
         <p id="heading">PCD Pharma Franchise</p>
