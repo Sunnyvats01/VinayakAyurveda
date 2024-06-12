@@ -374,6 +374,7 @@ hr {
   color: white;
   padding-top: 1rem;
   line-height: 1.8rem;
+  text-align: justify;
 
 }
 
@@ -682,6 +683,7 @@ ul {
 .child1 p {
   color: black;
   line-height: 1.8rem;
+  text-align: justify;
 
 
 
