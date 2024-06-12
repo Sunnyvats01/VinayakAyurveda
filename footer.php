@@ -1,4 +1,3 @@
-<footer>
       <div class="foot-panel2">
         <ul>
           <p>Quick Links</p>
@@ -46,4 +45,3 @@
           Vinayak Ayurveda
         </div>
       </div>
-    </footer>
