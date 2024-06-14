@@ -127,6 +127,7 @@ hr {
   cursor: pointer;
   padding: 0.3rem;
   font-size: 1rem;
+  font-weight: 500;
 }
 .nav-link:hover {
 
